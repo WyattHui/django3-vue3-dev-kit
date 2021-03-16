@@ -7,6 +7,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'django~=3.1'
+        'django~=3.1',
+        'django-cors-headers~=3.7',
+        'djangorestframework~=3.12'
     ]
 )
