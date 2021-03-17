@@ -6,3 +6,6 @@ from .serializers import TodoSerializer
 class TodosViewSet(viewsets.ModelViewSet):
     queryset = Todo.objects.all()
     serializer_class = TodoSerializer
+
+def index(request):
+    return render(request, template_name='index.html')
